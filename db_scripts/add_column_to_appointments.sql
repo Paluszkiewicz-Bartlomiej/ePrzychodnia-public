@@ -1,0 +1,1 @@
+ALTER TABLE appointments ADD types INT(1) NULL;
