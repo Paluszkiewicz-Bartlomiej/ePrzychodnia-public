@@ -28,7 +28,6 @@ function removeapp(appointment_id){
 }
 </script>
 <?php
-  session_start();
   $error=0;
   require_once './scripts/connect.php';
   if ($conn->connect_errno != 0){
