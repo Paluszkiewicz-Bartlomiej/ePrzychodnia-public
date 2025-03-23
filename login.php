@@ -124,24 +124,7 @@ Coded by www.creative-tim.com
                   </div>
                 </div>
                 <div class="card-footer text-center div-center">
-                  <div class="center-item g-recaptcha" data-sitekey="6LcONPcfAAAAABEzX56XjlMLYB7Ai7ADcv2L-r9O"></div>
-                  <br>
-                  <script>
-                    document.getElementById("contact_form").addEventListener("submit",function(evt)
-                      {
-                      
-                      var response = grecaptcha.getResponse();
-                      if(response.length == 0) 
-                      { 
-                        //reCaptcha not verified
-                        alert("Zweryfikuj że jesteś człowiekiem!"); 
-                        evt.preventDefault();
-                        return false;
-                      }
-                      //captcha verified
-                      
-                    });
-                  </script>
+
                     <button type="submit" class="btn btn-fill btn-wd ">Zaloguj się</button>
                 </div>
               </div>
